@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Ruanito/ebanxapi/issues"
   },
-  "homepage": "https://github.com/Ruanito/ebanxapi#readme"
+  "homepage": "https://github.com/Ruanito/ebanxapi#readme",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
 }
