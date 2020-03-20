@@ -4,7 +4,7 @@
   "description": "EBANX API library for JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup src/index.ts --file dist/bundle.js --format cjs"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Ruanito/ebanxapi#readme",
   "devDependencies": {
+    "rollup": "^2.1.0",
     "typescript": "^3.8.3"
   }
 }
